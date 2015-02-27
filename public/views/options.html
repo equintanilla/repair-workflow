@@ -1,0 +1,7 @@
+<div>
+    <h2 data-ng-bind="repairCtrl.getCurrentTitle()"></h2>
+
+    <div class="button" data-ng-repeat="option in repairCtrl.getCurrentOptions()" data-ng-click="repairCtrl.chooseOption(option)">
+        {{option.name}}
+    </div>
+</div>

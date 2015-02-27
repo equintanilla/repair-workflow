@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='/javascripts/apps/repair.js')
+    script(src='/javascripts/library/angularjs/1.3.12/angular.min.js')
+        
+    script(src='/javascripts/services/web-utils.js')
+    script(src='/javascripts/services/device-information-service.js')
+    script(src='/javascripts/services/repair-service.js')
+
+    script(src='/javascripts/controllers/repair-controller.js')
+        
+    script(src='/javascripts/apps/repair-app.js')
+  body
+    block content
